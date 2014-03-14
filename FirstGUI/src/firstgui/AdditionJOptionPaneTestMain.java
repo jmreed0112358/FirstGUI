@@ -15,12 +15,8 @@ public class AdditionJOptionPaneTestMain
 	 */
 	public static void main( String[] args )
 	{
-		/*
-		 * AdditionJOptionPane exampleOne = new AdditionJOptionPane( );
-		 * 
-		 * exampleOne.add( );
-		 */
+		AdditionJOptionPaneTest exampleOne = new AdditionJOptionPaneTest( );
 
-		
+		exampleOne.add( );		
 	}
 }
