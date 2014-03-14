@@ -39,14 +39,23 @@ public class FIrstGuiMain
 		 * textFieldFrameTest.setSize( 500, 100 );
 		 * textFieldFrameTest.setVisible( true );
 		 */
-		
-		ButtonFrameTest buttonFrameTest = new ButtonFrameTest( );
-		
-		buttonFrameTest.draw( );
-		
-		buttonFrameTest.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-		buttonFrameTest.setSize( 325, 150 );
-		buttonFrameTest.setVisible( true );
-	}
 
+		/*
+		 * ButtonFrameTest buttonFrameTest = new ButtonFrameTest( );
+		 * 
+		 * buttonFrameTest.draw( );
+		 * 
+		 * buttonFrameTest.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		 * buttonFrameTest.setSize( 325, 150 ); buttonFrameTest.setVisible( true
+		 * );
+		 */
+
+		CheckBoxFrameTest checkBoxFrameTest = new CheckBoxFrameTest( );
+
+		checkBoxFrameTest.draw( );
+
+		checkBoxFrameTest.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		checkBoxFrameTest.setSize( 275, 100 );
+		checkBoxFrameTest.setVisible( true );
+	}
 }
