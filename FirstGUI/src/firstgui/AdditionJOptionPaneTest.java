@@ -2,10 +2,10 @@ package firstgui;
 
 import javax.swing.JOptionPane;
 
-public class AdditionJOptionPane
+public class AdditionJOptionPaneTest
 {
 
-	public AdditionJOptionPane( )
+	public AdditionJOptionPaneTest( )
 	{
 		// TODO Auto-generated constructor stub
 	}
