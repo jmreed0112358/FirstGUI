@@ -15,9 +15,11 @@ public class FIrstGuiMain
 	 */
 	public static void main( String[] args )
 	{
-		// AdditionJOptionPane exampleOne = new AdditionJOptionPane( );
-
-		// exampleOne.add( );
+		/*
+		 * AdditionJOptionPane exampleOne = new AdditionJOptionPane( );
+		 * 
+		 * exampleOne.add( );
+		 */
 
 		/*
 		 * LabelFrameTest labelFrameTest = new LabelFrameTest( );
@@ -29,12 +31,22 @@ public class FIrstGuiMain
 		 * );
 		 */
 
-		TextFieldFrameTest textFieldFrameTest = new TextFieldFrameTest( );
-		textFieldFrameTest.draw( );
-
-		textFieldFrameTest.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-		textFieldFrameTest.setSize( 500, 100 );
-		textFieldFrameTest.setVisible( true );
+		/*
+		 * TextFieldFrameTest textFieldFrameTest = new TextFieldFrameTest( );
+		 * textFieldFrameTest.draw( );
+		 * 
+		 * textFieldFrameTest.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		 * textFieldFrameTest.setSize( 500, 100 );
+		 * textFieldFrameTest.setVisible( true );
+		 */
+		
+		ButtonFrameTest buttonFrameTest = new ButtonFrameTest( );
+		
+		buttonFrameTest.draw( );
+		
+		buttonFrameTest.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+		buttonFrameTest.setSize( 325, 150 );
+		buttonFrameTest.setVisible( true );
 	}
 
 }
