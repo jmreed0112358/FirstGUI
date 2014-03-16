@@ -12,7 +12,7 @@ import javax.swing.event.ListSelectionListener;
 
 public class JListFrameTest extends JFrame
 {
-	private JList			colorJList;
+	private JList<Object>	colorJList;
 	private final String	colorNames[]	= { "Black", "Blue", "Cyan",
 			"Dark Grey", "Grey", "Green", "Light Grey", "Magenta", "Orange",
 			"Pink", "Red", "White", "Yellow" };
@@ -29,8 +29,8 @@ public class JListFrameTest extends JFrame
 	public void draw( )
 	{
 		setLayout( new FlowLayout( ) );
-		
-		colorJList = new JList( colorNames );
+
+		colorJList = new JList<Object>( colorNames );
 		colorJList.setVisibleRowCount( 5 );
 
 		colorJList.setSelectionMode( ListSelectionModel.SINGLE_SELECTION );
